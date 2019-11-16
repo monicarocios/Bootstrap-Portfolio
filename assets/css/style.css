@@ -82,7 +82,7 @@ nav {
   margin-top: 25px;
 }
 
-nav a {
+nav a{
   display: inline-block;
   padding-left: 15px;
   margin-left: 15px;
@@ -92,7 +92,7 @@ nav a {
   border-left: 1px solid #efefef;
 }
 
-nav a:first-child {
+.nav a:first-child {
   border-left: 0 none;
 }
 
@@ -215,3 +215,140 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (min-width: 980px) {
+  /* portfolio.html */
+
+  .work {
+    width: 48%;
+    margin-bottom: 0;
+  }
+
+  .work:nth-child(even) {
+    margin-right: 20px;
+    float: left;
+  }
+
+  .work:nth-child(odd) {
+    float: right;
+  }
+}
+
+@media screen and (max-width: 980px) {
+
+  /* index.html */
+
+  .container {
+    padding: 0 50px;
+  }
+
+  section.main-section {
+    max-width: 600px;
+  }
+
+  .auth-image {
+    width: 250px;
+  }
+
+  /* portfolio.html */
+
+  .work {
+    width: 48%;
+    margin-bottom: 0;
+  }
+
+  .work:nth-child(even) {
+    margin-right: 20px;
+    float: left;
+  }
+
+  .work:nth-child(odd) {
+    float: right;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  /* All html */
+
+  .container {
+    padding: 0 20px;
+  }
+
+  section.main-section {
+    max-width: 768px;
+  }
+
+  /* index.html */
+
+  .auth-image {
+    width: 300px;
+  }
+
+  /* portfolio.html */
+
+  .work {
+    width: 48%;
+    margin-bottom: 0;
+  }
+
+  .work:nth-child(even) {
+    margin-right: 20px;
+    float: left;
+  }
+
+  .work:nth-child(odd) {
+    float: right;
+  }
+
+@media screen and (max-width: 640px) {
+
+/* All html */
+
+#masthead {
+  position: static;
+  margin-bottom: 20px;
+}
+
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+
+  #logo,
+  nav {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav {
+    margin: 10px 0;
+  }
+
+  #main-container {
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  section.main-section {
+    padding: 20px;
+  }
+
+  /* index.html */
+
+  .auth-image {
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+
+  /* portfolio.html */
+
+  .work {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+}};
