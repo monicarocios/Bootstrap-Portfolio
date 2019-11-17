@@ -156,7 +156,7 @@ h3, h2 {
 
 .work h3 {
   position: absolute;
-  bottom: 20px;
+  bottom: 80px;
   width: 100%;
   padding: 15px;
   margin-bottom: 0;
@@ -168,6 +168,10 @@ h3, h2 {
   border-bottom: 0;
 }
 
+.githubIcon {
+  margin-left: 180px;
+}
+
 .auth-image {
   float: left;
   width: 200px;
@@ -175,8 +179,6 @@ h3, h2 {
   margin-top: 10px;
   margin-right: 25px;
 }
-
-/* contact page */
 
 #contact-form ul {
   margin-bottom: 20px;
